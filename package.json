@@ -1,0 +1,26 @@
+{
+  "name": "defence",
+  "version": "1.0.0",
+  "description": "A Discord bot that ensures people chats are kept clean by scanning content using unscan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unscan-co/defence.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unscan-co/defence/issues"
+  },
+  "homepage": "https://github.com/unscan-co/defence#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "unscan": "^1.0.1"
+  }
+}
